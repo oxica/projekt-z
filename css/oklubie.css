@@ -1,7 +1,5 @@
 .oklubie{
-    padding-top: 200px;
-  padding-bottom: 200px;
-
+  padding-top: 50px;
   max-width: 1600px;
   min-height: 600px;
   margin-left: auto;
@@ -17,6 +15,10 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.oklubie__container{
+  padding: 20px;
 }
 
 .oklubie__text{
