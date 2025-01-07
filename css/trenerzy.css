@@ -1,31 +1,24 @@
-.media{
-    padding-top: 200px;
+.trenerzy{
+    padding-top: 100px;
   padding-bottom: 200px;
 
   max-width: 1600px;
   min-height: 600px;
   margin-left: auto;
   margin-right: auto;
-
-  background-image: linear-gradient(
-      to right,
-      rgba(3, 3, 3, 0.700),
-      rgba(0, 0, 0, 0.700)
-    ),
-    url(../images/media.png);
   background-color: #474747;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.media__container{
+.trenerzy__container{
     padding-top: 3rem;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 3rem, 1.5rem;
+    grid-template-columns: repeat(1, 1fr);
+    /* gap: 3rem, 1.5rem; */
   }
   
-  .media__card{
+  .trenerzy__card{
     position: relative;
     background-color: #1e1e1e;
     padding: 1.5rem 1rem 1.5rem;
@@ -33,26 +26,44 @@
     transition: border-color, box-shadow .4s;
     margin-bottom: 2rem;
     border-radius: 12px;
-    height: 150px;
+    border-color: #ffffff5d;
+    /* height: 300px; */
     text-align: center;
   }
   
-  .media__card:hover{
-    border-color: #ffffff5d;
+  .trenerzy__card:hover{
+    border-color: #de0202;
   }
 
-  .media__text{
+  .trenerzy__text{
     margin-top: .6rem;
-
   }
 
-  .media__card i{
+  .trenerzy__box{
+    text-align: left;
+    padding: 30px;
+  }
+
+  .trenerzy__card i{
     font-size: 3rem;
     color: #fff;
   }
 
-  .media__card i:hover{
+  .trenerzy__card i:hover{
     color: #de0202;
+  }
+
+  .box {
+    transform: translateX(400%);
+    transition: transform 0.4s ease;
+  }
+  
+  .box:nth-of-type(even) {
+    transform: translateX(-400%);
+  }
+  
+  .box.show {
+    transform: translateX(0);
   }
 
   
@@ -61,32 +72,32 @@
 
 
   @media screen and (max-width:479px){
-    .media__title{
+    .trenerzy__title{
         font-size: 1rem;
         margin-top: 4rem;
         margin-bottom: 3rem; 
       }
 
-      .media__container{
+      .trenerzy__container{
         padding-top: 3rem;
         grid-template-columns: 290px;
         justify-content: center;
       }
       
-      .media__card{
+      .trenerzy__card{
         margin-bottom: 3rem;
       }
     
 }
 
 @media screen and (min-width:479px){
-    .media__title{
+    .trenerzy__title{
         font-size: 1.5rem;
         margin-top: 6rem;
         margin-bottom: 3rem;
       }
 
-      .media__container{
+      .trenerzy__container{
         padding-top: 3rem;
         grid-template-columns: 450px;
         justify-content: center;
@@ -100,11 +111,11 @@
 }
 
 @media screen and (min-width:768px){
-    .media__container{
-        grid-template-columns: repeat(2, 335px);
+    .trenerzy__container{
+        grid-template-columns: repeat(1, 700px);
         align-items:start;
       }
-    .media__title{
+    .trenerzy__title{
         font-size: 2.5rem;
         margin-top: 4rem;
         margin-bottom: 3rem;
@@ -115,14 +126,14 @@
 
 @media screen and (min-width:1150px){
 
-    .media__title{
+    .trenerzy__title{
         margin-top: 4rem;
         margin-bottom: 4rem;
         font-size: var(--biggest-font-size);
       }
 
-      .media__container{
-        grid-template-columns: repeat(3, 335px);
+      .trenerzy__container{
+        grid-template-columns: repeat(1, 800px);
         align-items:start;
       }
 
