@@ -1,5 +1,5 @@
 .trenerzy{
-    padding-top: 100px;
+    /* padding-top: 100px; */
   padding-bottom: 200px;
 
   max-width: 1600px;
@@ -127,7 +127,7 @@
 @media screen and (min-width:1150px){
 
     .trenerzy__title{
-        margin-top: 4rem;
+        /* margin-top: 4rem; */
         margin-bottom: 4rem;
         font-size: var(--biggest-font-size);
       }

@@ -1,5 +1,5 @@
 .oklubie{
-  padding-top: 50px;
+  /* padding-top: 50px; */
   max-width: 1600px;
   min-height: 600px;
   margin-left: auto;
@@ -19,6 +19,19 @@
 
 .oklubie__container{
   padding: 20px;
+}
+
+.box {
+  transform: translateX(400%);
+  transition: transform 0.4s ease;
+}
+
+.box:nth-of-type(even) {
+  transform: translateX(-400%);
+}
+
+.box.show {
+  transform: translateX(0);
 }
 
 .oklubie__text{
@@ -65,7 +78,7 @@
 
 @media screen and (min-width:1150px){
     .oklubie__title{
-        margin-top: 4rem;
+        /* margin-top: 4rem; */
         margin-bottom: 4rem;
         font-size: var(--biggest-font-size);
       }

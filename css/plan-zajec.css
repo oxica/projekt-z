@@ -1,4 +1,4 @@
-.media{
+.plan{
     /* padding-top: 200px; */
   padding-bottom: 200px;
 
@@ -7,25 +7,32 @@
   margin-left: auto;
   margin-right: auto;
 
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
       to right,
       rgba(3, 3, 3, 0.600),
       rgba(0, 0, 0, 0.600)
     ),
-    url(../images/media.png);
+    url(../images/media.png); */
   background-color: #474747;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.media__container{
+.plan__container{
     padding-top: 3rem;
     grid-template-columns: repeat(3, 1fr);
-    gap: 3rem, 1.5rem;
+    /* gap: 3rem, 1.5rem; */
+  }
+
+  .plan__herotext{
+    padding: 20px;
+    font-size: .6rem;
+    text-align: center;
+    color: #fff;
   }
   
-  .media__card{
+  .plan__card{
     position: relative;
     background-color: #1e1e1e;
     padding: 1.5rem 1rem 1.5rem;
@@ -33,61 +40,102 @@
     transition: border-color, box-shadow .4s;
     margin-bottom: 2rem;
     border-radius: 12px;
-    height: 150px;
-    text-align: center;
     border-color: #ffffff5d;
+
+    /* height: 150px; */
+    text-align: center;
   }
   
-  .media__card:hover{
+  .plan__card:hover{
     border-color: #de0202;
   }
 
-  .media__text{
-    margin-top: .6rem;
-
+  .plan__logo{
+    padding: 5px;
+    height: 110px;
+    margin: 0 auto;
   }
 
-  .media__card i{
-    font-size: 3rem;
+  .plan__text{
+    margin-top: 2.5rem;
+    font-size: 2rem;
+  }
+
+  .plan__pretitle{
+    background-color: #fff;
+    margin-top: 2.5rem;
+color:  #0852db;
+font-size: 1.2rem;
+font-weight: 500;
+  }
+
+  .plan__bgblack{
+    background-color:transparent;
+  }
+
+  .plan__info span{
+    text-transform: uppercase;
+  }
+
+  .plan__pretext{
+margin-top: 15px;
+text-align: left;
+  }
+
+  .plan__info{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 1rem;
     color: #fff;
   }
 
-  .media__card i:hover{
+  .plan__tel{
+    font-style: normal;
+    color: #fff;
+    cursor: pointer;
+    transition: color .4s;
+  }
+
+  .plan__tel:hover{
     color: #de0202;
   }
 
-  
-
- 
-
 
   @media screen and (max-width:479px){
-    .media__title{
+    .plan__title{
         font-size: 1rem;
         margin-top: 4rem;
         margin-bottom: 3rem; 
       }
 
-      .media__container{
+      .plan__herotext{
+        font-size: .8rem
+      }
+
+      .plan__container{
         padding-top: 3rem;
         grid-template-columns: 290px;
         justify-content: center;
       }
       
-      .media__card{
+      .plan__card{
         margin-bottom: 3rem;
       }
     
 }
 
 @media screen and (min-width:479px){
-    .media__title{
+    .plan__title{
         font-size: 1.5rem;
         margin-top: 6rem;
         margin-bottom: 3rem;
       }
 
-      .media__container{
+      .plan__herotext{
+        font-size: 1.4rem
+      }
+
+      .plan__container{
         padding-top: 3rem;
         grid-template-columns: 450px;
         justify-content: center;
@@ -101,14 +149,18 @@
 }
 
 @media screen and (min-width:768px){
-    .media__container{
+    .plan__container{
         grid-template-columns: repeat(2, 335px);
         align-items:start;
       }
-    .media__title{
+    .plan__title{
         font-size: 2.5rem;
         margin-top: 4rem;
         margin-bottom: 3rem;
+      }
+
+      .plan__herotext{
+        font-size: 1.8rem
       }
 
     
@@ -116,21 +168,19 @@
 
 @media screen and (min-width:1150px){
 
-    .media__title{
+    .plan__title{
         /* margin-top: 4rem; */
         margin-bottom: 4rem;
         font-size: var(--biggest-font-size);
       }
 
-      .media__container{
+      .plan__container{
         grid-template-columns: repeat(3, 335px);
         align-items:start;
       }
 
-    
+      .plan__herotext{
+        font-size: 2.2rem
+      }
+   
 }
-
-
-
-
-
