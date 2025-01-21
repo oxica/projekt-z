@@ -44,6 +44,11 @@
     padding: 30px;
   }
 
+.trenerzy__img{
+  margin-top: 2rem;
+  padding: 0 15px;
+}
+
   .trenerzy__card i{
     font-size: 3rem;
     color: #fff;
