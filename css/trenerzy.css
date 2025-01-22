@@ -77,6 +77,10 @@
 
 
   @media screen and (max-width:479px){
+
+    body{
+      overflow-x: hidden;
+   }
     .trenerzy__title{
         font-size: 1rem;
         margin-top: 4rem;
