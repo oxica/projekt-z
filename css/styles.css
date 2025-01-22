@@ -303,6 +303,19 @@ img {
 }
 
 
+@media screen and (max-width:320px){
+
+  body{
+    overflow-x: hidden;
+ }
+}
+
+@media screen and (min-width:320px){
+
+  body{
+    overflow-x: hidden;
+ }
+}
 
 
 
