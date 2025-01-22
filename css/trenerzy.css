@@ -96,6 +96,19 @@
       .trenerzy__card{
         margin-bottom: 3rem;
       }
+
+      .box {
+        transform: translateX(0%);
+        transition: transform 0.4s ease;
+      }
+      
+      .box:nth-of-type(even) {
+        transform: translateX(0%);
+      }
+      
+      .box.show {
+        transform: translateX(0);
+      }
     
 }
 
