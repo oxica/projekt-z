@@ -158,6 +158,9 @@ img {
 }
 
 @media screen and (max-width: 1150px){
+  
+ 
+
     .nav__menu{
         position: fixed;
         top: 0;
@@ -304,6 +307,10 @@ img {
 
 
 @media screen and (max-width:479px){
+
+  body{
+    overflow-x: hidden;
+ }
     .container{
       margin-inline: 1rem;
     }
@@ -357,6 +364,11 @@ img {
   }
   
   @media screen and (min-width:479px){
+
+    body{
+      overflow-x: hidden;
+   }
+
     .nav__menu{
       width: 50%;
     }
@@ -383,6 +395,9 @@ img {
   }
   
   @media screen and (min-width:748px){
+    body{
+      overflow-x: hidden;
+   }
     .portfolio__content{
       grid-template-columns: repeat(3, 240px);
       column-gap: .05rem;
@@ -397,6 +412,9 @@ img {
   
   
   @media screen and (min-width:768px){
+    body{
+      overflow-x: hidden;
+   }
     .home{
       padding-top: 3rem;
     }
@@ -428,6 +446,9 @@ img {
   }
   
   @media screen and (min-width:1150px){
+    body{
+      overflow-x: hidden;
+   }
     .container{
       margin-inline: auto;
     }
