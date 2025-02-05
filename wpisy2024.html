@@ -26,8 +26,23 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/modal.css" />
-    <link rel="stylesheet" href="./css/wpisy2024.css" />
+    <link rel="stylesheet" href="./css/wpisy.css" />
+    <link rel="stylesheet" href="./css/carousel.css" />
   </head>
+  <script defer src="./js/carousel.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // активация слайдера
+      new ItcSimpleSlider('.itcss', {
+        loop: true,
+        autoplay: true,
+        swipe: true,
+        onInit(slider) {
+          console.log(this);
+        }
+      });
+    });
+  </script>
   <body>
     <header class="header" id="header">
       <nav class="nav container">
@@ -88,6 +103,24 @@
               olimpijskim
             </h2>
             <h3>Ciechocinek 14-20.10.2024</h3>
+
+            <!-- <div id="carousel" class="carousel">
+                <button class="arrow prev">⇦</button>
+                <div class="gallery">
+                  <ul>
+                    <li><img src="./images/gal-1.jpg"></li>
+                    <li><img src="./images/gal-2.jpg"></li>
+                    <li><img src="./images/gal-3.jpg"></li>
+                    <li><img src="./images/gal-4.jpg"></li>
+                    <li><img src="./images/gal-5.jpg"></li>
+                    <li><img src="./images/gal-6.jpg"></li>
+                    <li><img src="./images/gal-7.jpg"></li>
+                    
+                  </ul>
+                </div>
+                <button class="arrow next">⇨</button>
+              </div> -->
+
             <p class="wpisy__text box">
               W miniony weekend (14-20.10.2024) w Ciechocinku zakończyły się XII
               Indywidualne Mistrzostwa Polski Młodzików w boksie olimpijskim i V
@@ -1088,7 +1121,40 @@
 
           <div class="wpisy__color__light">
             <h2>32 finał Wielkiej Orkiestry</h2>
-
+            <div class="itcss" data-slider="itc-slider" data-swipe="true" data-loop="true">
+                <div class="itcss__wrapper">
+                  <div class="itcss__items">
+                    <div class="itcss__item">
+                        <img src="./images/gal-8.jpg" alt="Слайд 1">
+                    </div>
+                    <div class="itcss__item">
+                        <img src="./images/gal-9.jpg" alt="Слайд 1">
+                    </div>
+                    <div class="itcss__item">
+                        <img src="./images/gal-10.jpg" alt="Слайд 1">
+                    </div>
+                    <div class="itcss__item">
+                        <img src="./images/gal-11.jpg" alt="Слайд 1">
+                    </div>
+                  </div>
+                </div>
+                <button class="itcss__btn itcss__btn_prev" role="button" data-slide="prev"></button>
+                <button class="itcss__btn itcss__btn_next" role="button" data-slide="next"></button>
+              </div>
+            <!-- <div class="sim-slider">
+                <ul class="sim-slider-list">
+                  <li><img src="http://pvbk.spb.ru/inc/slider/imgs/no-image.gif" alt="screen"></li> 
+                  <li class="sim-slider-element"><img src="./images/gal-9.jpg" alt="0"></li>
+                  <li class="sim-slider-element"><img src="./images/gal-10.jpg" alt="1"></li>
+                  <li class="sim-slider-element"><img src="./images/gal-11.jpg" alt="2"></li>
+                  <li class="sim-slider-element"><img src="./images/gal-12.jpg" alt="3"></li>
+                  <li class="sim-slider-element"><img src="./images/gal-13.jpg" alt="4"></li>
+                  <li class="sim-slider-element"><img src="./images/gal-14.jpg" alt="5"></li>
+                </ul>
+                <div class="sim-slider-arrow-left"></div>
+                <div class="sim-slider-arrow-right"></div>
+                <div class="sim-slider-dots"></div>
+              </div> -->
             <p class="wpisy__text box">
               Po wcześniejszej ciężkiej walce, nasi zawodnicy Olaf Pera,
               Sebastian Kusz pojechali w sztafecie z Kalisza do Warszawy na 32
@@ -1103,6 +1169,43 @@
               Wspaniałe zwycięstwa zawodników Ziętek Team na Gali Boksu Hala
               Kalisz Arena - 27 styczeń 2024
             </h2>
+            <div class="itcss" data-slider="itc-slider" data-swipe="true" data-loop="true">
+                <div class="itcss__wrapper">
+                  <div class="itcss__items">
+                    <div class="itcss__item">
+                        <img src="./images/gal-1.jpg" alt="Слайд 1">
+                    </div>
+                    <div class="itcss__item">
+                        <img src="./images/gal-2.jpg" alt="Слайд 1">
+                    </div>
+                    <div class="itcss__item">
+                        <img src="./images/gal-3.jpg" alt="Слайд 1">
+                    </div>
+                    <div class="itcss__item">
+                        <img src="./images/gal-4.jpg" alt="Слайд 1">
+                    </div>
+                  </div>
+                </div>
+                <button class="itcss__btn itcss__btn_prev" role="button" data-slide="prev"></button>
+                <button class="itcss__btn itcss__btn_next" role="button" data-slide="next"></button>
+              </div>
+              
+            <!-- <div id="carousel" class="carousel">
+                <button class="arrow prev">⇦</button>
+                <div class="gallery">
+                  <ul>
+                    <li><img src="./images/gal-1.jpg"></li>
+                    <li><img src="./images/gal-2.jpg"></li>
+                    <li><img src="./images/gal-3.jpg"></li>
+                    <li><img src="./images/gal-4.jpg"></li>
+                    <li><img src="./images/gal-5.jpg"></li>
+                    <li><img src="./images/gal-6.jpg"></li>
+                    <li><img src="./images/gal-7.jpg"></li>
+                    
+                  </ul>
+                </div>
+                <button class="arrow next">⇨</button>
+              </div> -->
             <p class="wpisy__text box">
               Odliczanie rozpoczęte, wielkie święto fanów sportów walki!
             </p>
