@@ -9,7 +9,7 @@
   .slides {
     width: 500px;
     height: 400px;
-    box-shadow: 10px 8px 22px hsla(0, 0%, 100%, 0.3);
+    box-shadow: 10px 8px 22px hsla(211, 100%, 90%, 0.32);
   }
   
   img {
@@ -24,6 +24,7 @@
   }
 
   .next{
+    background-color: hsla(211, 100%, 63%, 0.954);
     padding: 2px 16px ;
     margin-top: 15px;
     border-radius: 6px;
@@ -31,7 +32,7 @@
 
   .next:hover{
     cursor: pointer;
-    background-color: #1a02cb;
+    background-color: hsla(228, 98%, 40%, 0.571);
     color: #fff;
     box-shadow: 2px 4px 6px hsla(0, 0%, 100%, 0.3);
   }
