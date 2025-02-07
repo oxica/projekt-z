@@ -141,6 +141,7 @@ img {
 }
 
 .nav__logo img{
+  display: block;
     height: 60px;    
 }
 
@@ -240,6 +241,7 @@ img {
 }
 
 .footer__logo img{
+  display: block;
   height: 90px;
 }
 

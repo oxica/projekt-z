@@ -70,6 +70,20 @@
   .wpisy__text a:hover{
       color: #de0202;
   }
+
+  .wpisy__link{
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 600;
+    color: var(--color-particles);
+    transition: color .4s;
+    font-size: 1rem;
+  }
+  
+  .wpisy__link:hover{
+    color: var(--first-color-alt);
+  }
   
   @media screen and (max-width:479px){
       .wpisy__title{

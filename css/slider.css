@@ -1,5 +1,4 @@
 .slides__box {
-
     display: flex;
     text-align: center;
     justify-content: center;
@@ -8,11 +7,9 @@
   }
   
   .slides {
-
     width: 500px;
     height: 400px;
     box-shadow: 10px 8px 22px hsla(0, 0%, 100%, 0.3);
-
   }
   
   img {
@@ -30,7 +27,6 @@
     padding: 2px 16px ;
     margin-top: 15px;
     border-radius: 6px;
-
   }
 
   .next:hover{
@@ -38,7 +34,6 @@
     background-color: #1a02cb;
     color: #fff;
     box-shadow: 2px 4px 6px hsla(0, 0%, 100%, 0.3);
-
   }
 
 
