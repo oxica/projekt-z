@@ -23,6 +23,10 @@
     height: 400px;
   }
 
+  .none{
+    display: none;
+  }
+
   .next{
     background-color: hsla(211, 100%, 63%, 0.954);
     padding: 2px 16px ;
