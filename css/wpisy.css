@@ -79,11 +79,19 @@
     font-weight: 600;
     color: var(--color-particles);
     transition: color .4s;
-    font-size: 1rem;
+    font-size: 2rem;
+    border: 2px solid transparent;
+    border-color: #ffffff5d;
+    border-radius: 12px;
+    padding: 15px;
+    color: #000;
+    background-color: #d1c5c5;
+
+
   }
   
   .wpisy__link:hover{
-    color: var(--first-color-alt);
+    color: var(--color-particles);
   }
   
   @media screen and (max-width:479px){
